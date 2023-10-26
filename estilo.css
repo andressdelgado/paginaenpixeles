@@ -1,0 +1,196 @@
+/*LAYOUT PAGINA*/
+body{
+    background-color: rgb(255, 255, 255);/*Aplicar un color de fondo al css*/
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    max-width: 1280px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*SE LE APLICARA ESTE TIPO DE LETRA A TODA LA PAGINA*/
+}
+
+header{
+    background-color: rgb(135, 213, 213);
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+}
+
+nav{
+    background-color: rgb(39, 120, 191);
+    padding: 15px;
+}
+
+main{
+    background-image: url(imagenes/fondo.jpg);/*SE LE APLICARA UNNA IMAGEN DE FONDO AL MAIN*/
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+/*ELEMENTOS HEADER*/
+header>a{
+   float: right;
+}
+
+.iconos{
+    width: 20px;
+}
+
+#logo{
+    width: 125px;
+}
+
+header>h3{
+    display: inline;
+    margin-left: 150px;
+}
+header>div{
+    display: inline;
+}
+
+#contacto{
+    width: 500px;
+    margin-left: 150px;
+}
+
+#contacto span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*ELEMENTOS DEL NAV*/
+
+nav ul{
+    display: inline;
+    list-style: none;
+    margin-left: 450px;
+    padding: 15px;
+}
+
+nav li{
+    display: inline;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
+}
+
+a:hover{
+    background-color: rgb(46, 67, 204);
+    padding: 15px;
+    color: white;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#segundo{
+    margin-left: 150px;
+}
+
+
+/*ELEMENTOS DEL MAIN*/
+
+table{
+    margin-left: 265px;
+    margin-right: 265px;
+    margin-bottom: 25px;
+    width: 750px;
+}
+
+caption{
+    padding: 15px 0px;
+}
+
+table td{
+    padding: 15px;
+}
+
+#lista{
+    width: 200px;
+}
+
+table img{
+    width: 490px;
+}
+
+p{
+    background-color:rgb(87, 108, 108);
+    width: 800px;
+    margin: 0px 210px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+
+h2{
+    text-align: center;
+    width: 750px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 255px;
+    margin-right: 255px;
+}
+
+table ol{
+    font-size: x-large;
+}
+
+form{
+    background-color: rgb(39, 120, 191);
+    width: 400px;
+    margin: 0px 390px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+label{
+    width: 400px;
+    display:inline-block;
+}
+
+select{
+    margin-bottom: 40px;
+    width: 200px;
+    margin: 0 100px;
+
+}
+
+input{
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.marginabajo{
+    margin-bottom: 40px;
+}
+
+input[type="text"]{/*CAMBIA EL DISEÑO DEL BOTON DE ENVIAR*/
+    padding: 0px 5px;
+    width: 190px;
+}
+
+input[type="submit"]{/*CAMBIA EL DISEÑO DEL BOTON DE ENVIAR*/
+    background-color: rgb(5, 33, 63); 
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    width: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+span{
+    font-style: italic;/*EL CONTENIDO DEL SPAN SE PONDRA EN CURSIVA*/
+}
+
