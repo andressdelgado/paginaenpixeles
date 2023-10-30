@@ -4,6 +4,7 @@
     <head>
         <title>Impacto mediambiental</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="estilo.css">
     </head>
     <body>
@@ -14,7 +15,7 @@
             <img src="imagenes/correo.png" class="iconos"><span>guadalupe@fundacionloyola.es</span></div>
         </header>
         <nav>
-            <ul id="#botonesul">
+            <ul id="botonesul">
                 <li class="botonesli"><a href="index.html">Inicio</a></li>
                 <li class="botonesli"><a id="segundo" href="pagina2.html">Ventas</a></li>
             </ul>
@@ -23,7 +24,7 @@
             <table>
                 <caption>Países que más habitantes compradores tienen</caption>
                 <tr>
-                    <td id="#lista">
+                    <td id="lista">
                         <ol>
                             <li>
                                 Tailandia
@@ -57,7 +58,7 @@
                             </li>
                         </ol>
                     </td>
-                    <td>
+                    <td id="celdaimagen">
                         <img src="imagenes/ranking.jpg">
                     </td>
                 </tr>
@@ -70,7 +71,7 @@
             <h2>Déjanos una queja o una sugerencia para mejorar nuestro sitio web</h2>
             <form method="POST" action="sacardatos.php">
                 <label for="lista">Selecciona una opción:</label><br>
-                <select name="lista" class="marginabajo"><br>
+                <select name="lista"><br>
                     <option value="sugerencia">Sugerencia</option>
                     <option value="queja">Queja</option>
                 </select>
@@ -83,9 +84,9 @@
                 <label for="dos">Página 2</label>
                 <input type="checkbox" name="gusto[]" value="dos" class="marginabajo">
                 <label for="texto">Introduce tu <span>sugerencia/queja:</span></label>
-                <input type="text" name="texto" class="marginabajo">
+                <input type="text" name="texto">
                 <input type="checkbox" name="terminos">
-                <label for="terminos" class="marginabajo">Acepto los términos de privacidad</label>
+                <label for="terminos">Acepto los términos de privacidad</label>
                 <input type="submit" name="Enviar" required>
             </form>
         </main>
